@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+
+  <body>
+<div class="login">
+  <h1>Predict Show Or No Show for Appointment</h1>
+
+  <form  action="{{url_for('predict')}}" method="post">
+    <input type="text" name="Patient_id" placeholder="Patient_id(int)" required="required">
+    <input type="text" name="Appointment_id" placeholder="Appointment_id(int)" required="required">
+
+    <select name="Gender">
+        <option value="F">Female</option>
+        <option value="M">Male</option>
+    </select>
+
+    <input type="text" name="Scheduled_day" placeholder="Scheduled_day(yyyy-mm-dd)" required="required">
+    <input type="text" name="Appointment_day" placeholder="Appointment_day(yyyy-mm-dd)" required="required">
+    <input type="text" name="Age" placeholder="Age" required="required">
+    <input type="text" name="Neighbourhood" placeholder="Neighbourhood Name" required="required">
+    <input type="text" name="Scholarship" placeholder="Scholarship(0/1)" required="required">
+    <input type="text" name="Hypertension" placeholder="Hypertension(0/1)" required="required">
+    <input type="text" name="Diabetes" placeholder="Diabetes(0/1)" required="required">
+    <input type="text" name="Alcoholism" placeholder="Alcoholism(0/1)" required="required">
+    <input type="text" name="Handicap" placeholder="Handicap(0/1)" required="required">
+    <input type="text" name="SMS_received" placeholder="SMS_received(0/1)" required="required">
+
+    <button type="submit" name="button">Predict</button>
+
+  </form>
+
+</div>
+
+<br>
+<br>
+{{prediction_text}}
+  </body>
+
+
+</html>
