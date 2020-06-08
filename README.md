@@ -13,16 +13,27 @@ PatientId: Identification of patients.
 AppointmentID: Identification of each appointment
 
 Gender: Gender of the patient
+
 Scheduled Day: The day when the patient set up their appointment
+
 Appointment Day: The day when the patient has to come to hospital to consult the doctor.
+
 Age: Age of the patient
+
 Neighborhood: Location of the patient
+
 Scholarship: It indicates that whether the patient has some Health insurance or not
+
 Hypertension: It indicates that whether the patient has hypertension or not.
+
 Diabetes: It indicates that whether the patient has diabetes or not.
+
 Alcoholism: It indicates that whether the patient is alcoholic or not.
+
 Handicap: It indicates that whether the patient is handicapper or not.
+
 SMS received: It indicates that whether the patient has received the SMS or not.
+
 No-show: It indicates that whether the patient has showed up to their appointment or not.
 
 **Modelling:**
