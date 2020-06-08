@@ -7,8 +7,11 @@ So Here the task is to analyse this dataset and will be focused on finding the c
 Basically, it’s Classification problem.
 
 **Data Description**
+
 PatientId: Identification of patients.
+
 AppointmentID: Identification of each appointment
+
 Gender: Gender of the patient
 Scheduled Day: The day when the patient set up their appointment
 Appointment Day: The day when the patient has to come to hospital to consult the doctor.
@@ -23,6 +26,7 @@ SMS received: It indicates that whether the patient has received the SMS or not.
 No-show: It indicates that whether the patient has showed up to their appointment or not.
 
 **Modelling:**
+
 **Logistic Regression:** The logistic model is used to model the
 probability of a certain class or event existing such as pass/fail,
 win/lose, alive/dead or healthy/sick. This can be extended to
@@ -34,11 +38,13 @@ a tree-like model of decisions and their possible consequences,
 including chance event outcomes, resource costs, and utility. It is
 one way to display an algorithm that only contains conditional
 control statements.
+
 **Random Forest:** Random forests or random decision forests are
 an ensemble learning method for classification, regression and
 other tasks that operate by constructing a multitude of decision
 trees at training time and outputting the class that is the mode of
 the classes or mean prediction of the individual trees
+
 **Gradient boosting classifiers** are a group of machine learning
 algorithms that combine many weak learning models together to
 create a strong predictive model. Decision trees are usually used
